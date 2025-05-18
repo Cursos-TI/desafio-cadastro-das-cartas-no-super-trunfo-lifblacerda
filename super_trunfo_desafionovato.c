@@ -3,7 +3,7 @@
 int main() {
     // Variáveis da Carta 1
     char estado1;
-    char codigo1[4]; 
+    char codigo1[4]; // Ex: A01, B03 (3 caracteres + 1 para '\0')
     char nomeCidade1[50];
     int populacao1;
     float area1;
