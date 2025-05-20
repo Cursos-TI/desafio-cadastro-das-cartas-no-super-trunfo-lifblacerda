@@ -5,7 +5,7 @@ int main() {
     char estado1;
     char codigo1[4];
     char nomeCidade1[50];
-    int populacao1;
+    unsigned long int populacao1;
     float area1, pib1;
     int pontosTuristicos1;
     float densidade1, pibPerCapita1, superPoder1;
@@ -14,7 +14,7 @@ int main() {
     char estado2;
     char codigo2[4];
     char nomeCidade2[50];
-    int populacao2;
+    unsigned long int populacao2;
     float area2, pib2;
     int pontosTuristicos2;
     float densidade2, pibPerCapita2, superPoder2;
@@ -33,7 +33,7 @@ int main() {
     fgets(nomeCidade1, 50, stdin);
 
     printf("População:\n");
-    scanf("%d", &populacao1);
+    scanf("%lu", &populacao1);
 
     printf("Área: %.2f km²\n", area1);
     scanf("%f", &area1);
@@ -62,7 +62,7 @@ int main() {
     fgets(nomeCidade2, 50, stdin);
 
     printf("População:\n");
-    scanf("%d", &populacao2);
+    scanf("%lu", &populacao2);
 
     printf("Área: %.2f km²\n", area2);
     scanf("%f", &area2);
